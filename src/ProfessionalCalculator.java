@@ -15,7 +15,7 @@ public class ProfessionalCalculator extends JFrame implements ActionListener {
     private boolean isNewCalculation = true;
 
     public ProfessionalCalculator() {
-        setTitle("Professional Calculator");
+        setTitle("Calculator");
         setSize(400, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
