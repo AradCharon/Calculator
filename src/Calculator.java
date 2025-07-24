@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ProfessionalCalculator extends JFrame implements ActionListener {
+public class Calculator extends JFrame implements ActionListener {
     private JTextField display;
     private JButton[] numberButtons;
     private JButton[] functionButtons;
@@ -14,7 +14,7 @@ public class ProfessionalCalculator extends JFrame implements ActionListener {
     private char operator;
     private boolean isNewCalculation = true;
 
-    public ProfessionalCalculator() {
+    public Calculator() {
         setTitle("Calculator");
         setSize(400, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -279,7 +279,7 @@ public class ProfessionalCalculator extends JFrame implements ActionListener {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            new ProfessionalCalculator();
+            new Calculator();
         });
     }
 }
